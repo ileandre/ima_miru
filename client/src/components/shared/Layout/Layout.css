@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Shojumaru&display=swap');
+
+/*---------------CLASS---------------*/
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("https://i.ibb.co/rsDcdK8/Gon-Killua-Background-Image.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.layout-children {
+  font-family: 'IBM Plex Sans', sans-serif;
+}

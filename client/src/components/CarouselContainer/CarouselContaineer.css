@@ -1,0 +1,39 @@
+
+/*---------------TAGS---------------*/
+
+img {
+    height: 100vw;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /*---------------CLASS---------------*/
+  
+  .carousel {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+  }
+  
+  /*---------------IDs---------------*/
+  
+  
+  
+  /*---------------Media Queries iPad---------------*/
+  
+  @media only screen and (min-width: 768px) {
+  
+    img {
+      width: 90%;
+      height: 90%;
+    }
+  
+    .container-with-dots {
+      height: 90%;
+    }
+  
+    .image {
+      margin-top: 10%;
+    }
+  
+  }
