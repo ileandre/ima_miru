@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Shojumaru&display=swap');
+
+nav {
+  margin-bottom: 5%;
+}
+
+/*---------------CLASSES---------------*/
+
+.nav {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.links {
+    display: inline;
+    font-size: 17px;
+    margin:  auto 0;
+    margin-left: 20px;
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.links :hover {
+  text-decoration: none;
+}
+
+.nav a {
+  color: white;
+}
+
+.userWelcome {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+.userWelcome :hover {
+  color: white;
+}
+
+.navOptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    display: inline;
+}
+
+/*---------------IDs---------------*/
+
+#appName {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Shojumaru', cursive;
+}
+
+
+
+/*---------------Media Queries iPad---------------*/
+
+@media only screen and (min-width: 768px) {
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px; 
+    }
+
+    .links {
+        font-size: 23px;
+        width: 50%;
+    }
+
+    #appName {
+        font-size: 45px;
+    }
+
+}
+
+/*---------------Media Queries iPad Pro---------------*/
+
+@media only screen and (min-width: 1024px) {
+
+    .links {
+        font-size: 25px;
+        width: 50%;
+    }
+
+    #appName {
+        font-size: 60px;
+    }
+
+}
+
+/*---------------Media Queries Laptop---------------*/
+
+
+@media only screen and (min-width: 1366px) {
+    .links {
+        font-size: 30px;
+        width: 45%;
+    }
+
+    #appName {
+        font-size: 75px;
+    }
+}
+
+/*---------------Media Queries Desktop---------------*/
+
+
+@media only screen and (min-width: 1801px) {
+    .links {
+        font-size: 40px;
+    }
+
+    #appName {
+        font-size: 75px;
+    }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Shojumaru&display=swap');
+
+.footer {
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.99);
+  opacity: 0.6;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.footer-links {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-link {
+  color: white;
+}
+
+.fa {
+  padding: 5px;
+}
+
+#icon a {
+  color: white
+}
