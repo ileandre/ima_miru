@@ -1,0 +1,50 @@
+.signIn-form-container {
+    width: 50%;
+    height: fit-content;
+    padding: 15px 70px;
+    margin: 0px auto;
+    background-color: lightcyan;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgba(153, 178, 234, .8);
+  }
+  .signIn-form-title{
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  #form-control {
+    border-radius: 0;
+    font-size: 20px; 
+  }
+  .signIn-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  #submit-button {
+    align-self: center;
+    background-color: #0B4779;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 2px;
+  }
+  #cancel-button {
+    align-self: center;
+    background-color: #0B4779;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 2px;
+  }
+  
+  @media only screen and (max-width : 375px) {
+    .signIn-form-container {
+      width: 90%;
+    }
+    .signIn-form-title{
+      font-size: 25px;
+    }
+  }

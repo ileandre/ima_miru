@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Shojumaru&display=swap');
+
+.shows {
+  display: flex;
+  grid-template-columns: auto;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+  letter-spacing: 0.1px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0 40px;
+}
+
+#search {
+  padding: 4px;
+  margin-bottom: 75px;
+  width: 50%;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.search-input {
+  width: 50%;
+}
+
+@media only screen and (max-width : 375px) {
+#search {
+  width: 100%;
+}
+}

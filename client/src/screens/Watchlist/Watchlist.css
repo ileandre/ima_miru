@@ -1,0 +1,19 @@
+.shows{
+    display: flex;
+    grid-template-columns: auto;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif; 
+    justify-content: space-evenly;
+    letter-spacing: .1px;
+  }
+  
+  .watchlist-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-shadow: black 2px 2px 4px;
+    margin-bottom: 50px;
+  }
