@@ -29,3 +29,7 @@
 #icon a {
   color: white
 }
+
+.footer-links a {
+    text-decoration: none;
+}
